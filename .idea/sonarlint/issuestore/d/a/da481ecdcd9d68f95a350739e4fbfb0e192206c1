@@ -1,0 +1,13 @@
+
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+h
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Äæ÷üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÉÏÀ«
+N	java:S106."9Replace this use of System.out or System.err by a logger.(§õ´
+O
+java:S28648"4Iterate over the "entrySet" instead of the "keySet".(ø¸¦îÿÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ÏõŒÑÿÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8˜Ê‰ì°0
