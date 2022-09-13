@@ -49,26 +49,27 @@ public class App {
                 }
 
                 // Input is term expression
-                final Expression ex = new ExpressionBuilder(expression)
-                        .variables(variables.keySet())
-                        .build();
-
-                for (final var variable : variables.keySet()) {
-                    ex.setVariable(variable, variables.get(variable));
-                }
-
                 double result = 0.0;
 
                 try {
+                    final Expression ex = new ExpressionBuilder(expression)
+                            .variables(variables.keySet())
+                            .build();
+
+                    for (final var variable : variables.keySet()) {
+                        ex.setVariable(variable, variables.get(variable));
+                    }
+
                     result = ex.evaluate();
                 } catch (Exception e) {
-                    System.err.println("Fehler! Tachenrechner startet neu!");
+                    System.out.println("Fehler! Tachenrechner startet neu!");
                     System.out.println();
 
                     variables.clear();
                     continue;
                 }
 
+                variables.clear();
                 System.out.println(result);
             }
         }
